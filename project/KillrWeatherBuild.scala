@@ -129,7 +129,7 @@ object Dependencies {
 
   val akka = Seq(akkaStream, akkaHttpCore, akkaActor, akkaCluster, akkaRemote, akkaSlf4j)
 
-  val connector = Seq(driver, sparkCassandra, sparkCatalyst, sparkCassandraEmb)
+  val connector = Seq(sparkCassandra, sparkCatalyst, sparkCassandraEmb)
 
   val json = Seq(json4sCore, json4sJackson, json4sNative)
 
